@@ -1,0 +1,9 @@
+<!--pages/import/import.wxml-->
+<view class="usename">
+  小红
+  小黄
+  小白
+</view>
+
+<navigator url="/pages/swiper/swiper">导航</navigator>
+<button bindtap="gotoText">跳转到text</button>

@@ -1,0 +1,13 @@
+<swiper class="swiper_container" indicator-dots indicator-color="white" indicator-active-color="gray" autoplay interval="2000" circular>
+  <swiper-item>
+    <image src="/image/yuan1.jpg" mode="aspectFit"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="/image/yuan2.jpg" mode="aspectFit"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="/image/yuan3.jpg" mode="aspectFit"/>
+  </swiper-item>
+</swiper>
+
+<navigator open-type="navigateBack" delta="1">后腿</navigator>

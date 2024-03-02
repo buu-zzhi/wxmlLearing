@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/import/import",
+    "pages/text/text",
+    "pages/swiper/swiper",
+    "pages/scrollX/scrollX",
+    "pages/logs/logs",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "gaodeditu",
+    "navigationBarBackgroundColor": "#05b482",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#efefef",
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "selectedColor": "#05b482",
+    "list": [
+      {
+        "pagePath": "pages/import/import",
+        "text": "import",
+        "iconPath": "/image/im1.jpg",
+        "selectedIconPath": "/image/im0.jpg"
+      },{
+        "pagePath": "pages/text/text",
+        "text": "text",
+        "iconPath": "/image/te0.jpg",
+        "selectedIconPath": "/image/te1.jpg"
+      }
+    ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

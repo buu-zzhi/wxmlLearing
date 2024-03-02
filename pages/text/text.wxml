@@ -1,0 +1,12 @@
+<view>
+  <text selectable>可选中效果</text>
+  <rich-text nodes="<h1 style='color:red;'>标题<h1>"></rich-text>
+  <button size="mini" type="primary">主色调迷你按钮</button>
+  <button plain type="warn">警告镂空按钮</button>
+</view>
+
+<image src="/image/yuan2.jpg" mode="aspectFit"></image>
+
+<button bindtap="gotologs">跳转到logs</button>
+
+<image src="/image/yuan4.jpg" mode="aspectFill"/>
